@@ -9,7 +9,7 @@ The command `git push` uploads commits from your local repository to a remote re
 The command `git fetch` downloads commits from a remote repo into your local repo.
 
 
-`git fetch` looks for commits in the remote branch that your current branch is tracking and downlads them to your local repo. It does not merge these commits, so your local branch remains unchanged. When you understand and are comfortable with the changes, `git merge` will incorporate them into your current branch
+`git fetch` looks for commits in the remote branch that your current branch is tracking and downloads them to your local repo. It does not merge these commits, so your local branch remains unchanged. When you understand and are comfortable with the changes that have been fetched, `git merge` will incorporate them into your current branch.
 
 ## git pull
 The command `git pull` downloads and merges commits from a remote repo into your local repo.
