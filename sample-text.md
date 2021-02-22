@@ -1,4 +1,4 @@
-## What is the difference between push, pull, and fetch?
+## What is the difference between `git push`, `git pull`, and `git fetch`?
 
 ## git push
 The command `git push` uploads commits from your local repository to a remote repo.
