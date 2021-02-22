@@ -13,6 +13,6 @@ The command `git fetch` downloads commits from a remote repo into your local rep
 ## git pull
 The command `git pull` downloads and merges commits from a remote repo into your local repo.
 
-`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+`git pull` actually runs `git fetch` followed immediately by `git merge`. Merging remote upstream changes into your local repository is a common task, but it assumes that you understand the changes you are merging into your local branch.
 
 Often `git push` and `git pull` are described as equivalent. This isn't entirely correct, since under the hood `git pull` does two things.
